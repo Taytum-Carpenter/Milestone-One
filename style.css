@@ -1,3 +1,7 @@
+body {
+    background-color:darkgreen;
+    color:beige;
+}
 #page-title {
     margin: 0 0 18px;
     padding: 12px;
@@ -24,8 +28,4 @@ p {
 .content-card {
     padding: 16px;
     border: 2px solid royalblue;
-}
-body {
-    background-color:darkgreen;
-    color:beige;
 }
