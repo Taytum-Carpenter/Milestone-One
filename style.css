@@ -1,4 +1,31 @@
+#page-title {
+    margin: 0 0 18px;
+    padding: 12px;
+    border-bottom: 12px
+        solid darkcyan
+}
+.content-card {
+    margin: 18px 0;
+    padding: 16px;
+    border: 2px solid
+        steelblue
+}
+p {
+    margin: 8px 0;
+    padding: 8px;
+    border-left: 3px
+        solid blueviolet
+}
+<main>
+< section class= "content-card">
+<p>Welcome</p>
+</section>
+</main>
+.content-card {
+    padding: 16px;
+    border: 2px solid royalblue;
+}
 body {
-background-color:darkgreen;
-color:beige 
+    background-color:darkgreen;
+    color:beige;
 }
