@@ -20,12 +20,13 @@ p {
     border-left: 3px
         solid blueviolet
 }
-<main>
-< section class= "content-card">
-<p>Welcome</p>
-</section>
-</main>
 .content-card {
     padding: 16px;
     border: 2px solid royalblue;
+}
+p {font-size: 18px;
+.content-card {
+   background: lightblue;
+}    #page-title {
+    color:burlywood
 }
