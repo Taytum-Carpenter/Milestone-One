@@ -1,12 +1,13 @@
+#page-title {
+    margin: 0 0 16px;
+    padding: 12px;
+    border-bottom: 12px;
+    solid darkblue;
+
+}
 body {
     background-color:darkgreen;
     color:beige;
-}
-#page-title {
-    margin: 0 0 18px;
-    padding: 12px;
-    border-bottom: 12px
-        solid darkcyan
 }
 .content-card {
     margin: 18px 0;
