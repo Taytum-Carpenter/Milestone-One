@@ -1,38 +1,21 @@
 #page-title {
     margin: 0 0 16px;
     padding: 12px;
-    border-bottom: 12px;
-    solid darkblue;
-
+    border-bottom: 12px solid darkblue;
+    color: burlywood;
 }
 body {
-    background-color:darkgreen;
-    color:beige;
+    background-color: darkgreen;
+    color: beige;
 }
 .content-card {
     margin: 0 0 18px;
     padding: 16px;
-    border: 2px; 
-    solid babyblue; 
+    border: 2px solid royalblue;
 }
 p {
     margin: 8px 0;
     padding: 8px;
-    border-left: 3px
-    solid blueviolet
-}
-.content-card {
-    padding: 16px;
-    border: 2px
-     solid royalblue;
-}
-p {font-size: 18px;
-.content-card {
-    margin: 0 0 18px;
-    padding: 16px;
-    border: 2px
-     solid royalblue;
-}   
- #page-title {
-    color: burlywood
+    border-left: 3px solid blueviolet;
+    font-size: 18px;
 }
