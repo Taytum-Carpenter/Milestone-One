@@ -1,24 +1,37 @@
-<head> 
-    <link rel="stylesheet" href="style.css">
-    </head>
-#page-title {
-    margin: 0 0 16px;
-    padding: 12px;
-    border-bottom: 12px solid darkblue;
-    color: burlywood;
-}
 body {
     background-color: darkgreen;
     color: beige;
 }
+p {font-size: 18px;}
 .content-card {
+    background: navy;
+}
+#page-title{
+    color:blanchedalmond
+}
+h2 {
+    color:black
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #F2F7F8;
+    color:brown
+}
+#page-title {
     margin: 0 0 18px;
+    padding: 12px;
+    border-bottom: 3px
+        solid purple; 
+} 
+.content-card {
+    margin: 18px 0;
     padding: 16px;
-    border: 2px solid royalblue;
+    border: 1px solid
+        navy;
 }
 p {
     margin: 8px 0;
     padding: 8px;
-    border-left: 3px solid blueviolet;
-    font-size: 18px;
+    border-left: 3px
+        solid yellow;
 }
