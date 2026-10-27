@@ -66,3 +66,14 @@ main <section class="content-card"><p>Welcome</p></section></main>.content-card 
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between align-items: center;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
