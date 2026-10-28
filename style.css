@@ -43,11 +43,6 @@ p {
     border-left: 3px solid yellow;
 }
 
-main <section class="content-card"><p>Welcome</p></section></main>.content-card {
-    padding: 16px;
-    border: 2px solid navy;
-}
-
 .card-grid {
     display: grid;
     grid-template-columns: repeat (3, 1fr);
