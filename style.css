@@ -20,7 +20,7 @@ h2 {
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'comic sans ms', sans-serif;
     background: #F2F7F8;
     color: brown
 }
@@ -65,10 +65,29 @@ p {
 .navigation {
     display: flex;
     flex-direction: column;
-    justify-content: space-between align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navigation {
     display: flex;
     flex-wrap: wrap;
 }
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">.cards {
+    display: grid;
+    grid-template-columns: 1fr gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
