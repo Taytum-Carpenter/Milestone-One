@@ -32,6 +32,48 @@
   </main>
   <footer>Created by Taytum Carpenter</footer>
 </body>
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+@media (min-width: 768px) {
+    .card-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(0, 2fr));
+    gap: 16px;
+} 
 <section class="card-grid">
   <article class="card">home</article>
   <article class="card">work</article>
