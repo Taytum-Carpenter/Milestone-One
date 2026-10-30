@@ -86,3 +86,14 @@ td {
     display: flex;
     flex-wrap: wrap;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(0, 2fr));
+    gap: 16px;
+}
