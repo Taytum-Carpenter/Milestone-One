@@ -43,6 +43,18 @@ p {
     border-left: 3px solid yellow;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat (3, 1fr);
@@ -84,4 +96,15 @@ p {
 .navigation {
     display: flex;
     flex-wrap: wrap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(0, 2fr));
+    gap: 16px;
 }
