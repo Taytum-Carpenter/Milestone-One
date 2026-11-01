@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Taytum Carpenter</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -10,10 +13,10 @@
     <h1>Home</h1>
     <p> Taytum Carpenter: a web student</p>
   </header>
-  <nav>
+  <nav class="navigation" aria-label="Main navigation">
     <a href="index.html">Home</a>
     <a href="projects.html">Work</a>
-    <a href="about.html">About</a>
+    <a href="#about-me">About</a>
   </nav>
   <main>
     <section>
@@ -21,32 +24,12 @@
       <p>I enjoy making webpages</p>
       <img src="DexcomGraph.jpeg" alt="This is a photo of my Dexcom graph.">
     </section>
-    <section>
-      <h2>Featured Work</h2>
-      <h3>My First Web Page</h3>
-      <div class="card-grid">
-        <div>
-          My name is Taytum, and I am an IT student who wants to go into robotics
-          My interests include: Reading, Writing, and creating something new
-        </div>
-        <div>
-          My name is Taytum, and I am an IT student who wants to go into robotics
-          My interests include: Reading, Writing, and creating something new
-        </div>
-        
-        <!-- <div>
-          <ul>
-            <li> My name is Taytum, and I am an IT student who wants to go into robotics</li>
-            <li> My interests include: Reading, Writing, and creating something new</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li> My name is Taytum, and I am an IT student who wants to go into robotics</li>
-            <li> My interests include: Reading, Writing, and creating something new</li>
-          </ul>
-        </div> -->
-
+    <section id="about-me" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <div class="about-grid">
+        <p>My name is Taytum, and I am an IT student who wants to go into robotics.</p>
+        <p>My interests include reading, writing, and creating something new.</p>
+        <p>I enjoy making webpages.</p>
       </div>
     </section>
   </main>
