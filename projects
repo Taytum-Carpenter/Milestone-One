@@ -1,2 +1,119 @@
-projects.html
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects & Skills | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>My Projects & Skills</h1>
+        <p>Exploring technology, creativity, and problem-solving.</p>
+
+        <!-- Navigation -->
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" aria-current="page">Projects</a></li>
+                <li><a href="about.html">About / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <section>
+            <h2>My Interests in Technology</h2>
+            <p>
+                I am currently pursuing an Associate of Science in
+                Information Technology. I am especially interested in
+                artificial intelligence, robotics, and how technology
+                can be used to solve real-world problems.
+            </p>
+        </section>
+
+        <section>
+            <h2>My Projects</h2>
+
+            <div class="project-container">
+
+                <article class="project-card">
+                    <h3>Website Development</h3>
+                    <p>
+                        I am learning how to build websites using HTML
+                        and CSS. This website is an example of my
+                        developing skills in web design, accessibility,
+                        and organization.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Artificial Intelligence</h3>
+                    <p>
+                        I am interested in learning how artificial
+                        intelligence works and how it can be used to
+                        improve technology, automate tasks, and solve
+                        everyday problems.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Robotics</h3>
+                    <p>
+                        Robotics interests me because it combines
+                        technology, programming, engineering, and
+                        problem-solving to create useful machines
+                        and automated systems.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Problem-Solving</h3>
+                    <p>
+                        I enjoy learning how technology works,
+                        troubleshooting problems, and finding ways
+                        to make systems and processes more efficient.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>My Skills</h2>
+            <ul>
+                <li>Problem-solving and troubleshooting</li>
+                <li>Communication and teamwork</li>
+                <li>Customer service</li>
+                <li>Adaptability and organization</li>
+                <li>Learning HTML and CSS</li>
+                <li>Interest in AI and robotics</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>My Future Goals</h2>
+            <p>
+                My goal is to continue developing my technical skills
+                and gain hands-on experience in the IT field. I hope
+                to explore opportunities involving artificial
+                intelligence, robotics, and other emerging technologies.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Website Footer -->
+    <footer>
+        <p>&copy; 2026 My Website | Information Technology Student</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>   
