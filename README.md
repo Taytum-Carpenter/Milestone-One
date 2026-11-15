@@ -2,7 +2,7 @@
 
 ## PROJECT OVERVIEW
 This project is a personal website created for my web development class. The website includes an introduction of myself, my interests, and raising awareness about Type One Diabetes.
-## ABOUT THIS WEBSITE
+## ABOUT MY WEBSITE
 I created this website to practice using HTML and CSS while learning how to organize and design webpages. I also included pictures that relate to diabetes tech and medical identification to help visitors understand the topic better.
 ## WEBSITE CONTENT
 - my introduction
