@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>About Me</h1>
+        <p>Get to know more about my background, interests, and goals.</p>
+
+        <!-- Navigation -->
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html" aria-current="page">About / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Introduction -->
+        <section>
+            <h2>A Little About Me</h2>
+            <p>
+                Hello! I am an Information Technology student currently
+                pursuing an Associate of Science degree. I enjoy learning
+                about technology, discovering how things work, and
+                finding creative ways to solve problems.
+            </p>
+
+            <p>
+                I consider myself adaptable, dependable, and motivated
+                to keep learning. I enjoy working with others while
+                also challenging myself to develop new skills.
+            </p>
+        </section>
+
+        <!-- Education -->
+        <section>
+            <h2>My Education</h2>
+            <p>
+                I am pursuing an Associate of Science in Information
+                Technology. Through my education, I am developing
+                knowledge of computers, technology, web development,
+                and problem-solving.
+            </p>
+        </section>
+
+        <!-- Interests -->
+        <section>
+            <h2>My Interests</h2>
+            <ul>
+                <li>Information Technology</li>
+                <li>Artificial Intelligence</li>
+                <li>Robotics and automation</li>
+                <li>Web development and design</li>
+                <li>Learning about new technology</li>
+            </ul>
+        </section>
+
+        <!-- Career Goals -->
+        <section>
+            <h2>My Future Goals</h2>
+            <p>
+                My goal is to build a career in the technology field
+                where I can continue learning and developing my skills.
+                I am especially interested in exploring opportunities
+                involving artificial intelligence and robotics.
+            </p>
+
+            <p>
+                I hope to gain hands-on experience through internships,
+                projects, and other opportunities that will help me
+                grow as an IT professional.
+            </p>
+        </section>
+
+        <!-- Contact Form -->
+        <section>
+            <h2>Contact Me</h2>
+            <p>
+                Have a question or want to connect? Fill out the form below.
+            </p>
+
+            <form id="contact-form" action="#" method="post">
+
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        aria-describedby="name-error"
+                    >
+                    <p id="name-error" class="error-message"></p>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        aria-describedby="email-error"
+                    >
+                    <p id="email-error" class="error-message"></p>
+                </div>
+
+                <fieldset>
+                    <legend>What would you like to discuss?</legend>
+
+                    <label>
+                        <input type="radio" name="topic" value="general">
+                        General Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="topic" value="school">
+                        School or Projects
+                    </label>
+
+                    <label>
+                        <input type="radio" name="topic" value="career">
+                        Career Opportunities
+                    </label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                        aria-describedby="message-error"
+                    ></textarea>
+                    <p id="message-error" class="error-message"></p>
+                </div>
+
+                <button type="submit">Send Message</button>
+
+                <p id="form-status" role="status" aria-live="polite"></p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Website Footer -->
+    <footer>
+        <p>&copy; 2026 My Website | Information Technology Student</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
